@@ -33,6 +33,9 @@ myArray.forEach((string) => console.log(string));
 //6.--------------------------------------------------------------------------------------
 // Using the .shift() and .pop() method, remove the first and last item from myArray.
 //print the result
+myArray.shift();
+myArray.pop();
+console.log(myArray);
 
 // 7.--------------------------------------------------------------------------------------
 // create a variable and assign it the content of myArray as a string using .join().
