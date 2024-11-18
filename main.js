@@ -21,7 +21,10 @@ for (let i = 0; i < myArray.length; i++) {
 //4.--------------------------------------------------------------------------------------
 // Using the myArray.push() method, add "mango" to the end of myArray.
 //print myArray using a for... of loop.
-
+myArray.push("mango");
+for (const string of myArray) {
+  console.log(string);
+}
 //5.--------------------------------------------------------------------------------------
 //Using the myArray.splice() method, remove "cherry" from myArray
 // print the result using myArray.foreach()
