@@ -41,7 +41,9 @@ console.log(myArray);
 // create a variable and assign it the content of myArray as a string using .join().
 // print your variable.
 //BONUS - See if you can make the items be seperated by a space
-
+let mangledArrayString = myArray.join(" UwU ");
+// myArray.forEach((el) => (mangledArrayString += el + " ")); (Bare fordi jeg fikk lyst)
+console.log(mangledArrayString);
 //8--------------------------------------------------------------------------------------
 //Create a function that takes a number as an argument and returns that number squared.
 // call your function by using a valid argument
