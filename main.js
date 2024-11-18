@@ -14,6 +14,9 @@ while (i <= 10) {
 }
 //3.--------------------------------------------------------------------------------------
 // Print each item in myArray using a "for loop".
+for (let i = 0; i < myArray.length; i++) {
+  console.log(myArray[i]);
+}
 
 //4.--------------------------------------------------------------------------------------
 // Using the myArray.push() method, add "mango" to the end of myArray.
