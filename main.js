@@ -2,7 +2,9 @@ const myArray = ["apple", "banana", "cherry", "date", "eggplant"];
 
 //1.--------------------------------------------------------------------------------------
 // Print the numbers 1-10 using a "for-loop"
-
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
 //2.--------------------------------------------------------------------------------------
 // Print the numbers 1-10 using a "while loop"
 
