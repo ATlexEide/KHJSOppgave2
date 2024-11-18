@@ -47,9 +47,11 @@ console.log(mangledArrayString);
 //8--------------------------------------------------------------------------------------
 //Create a function that takes a number as an argument and returns that number squared.
 // call your function by using a valid argument
-function numberSquared(number) {}
+function numberSquared(number) {
+  return number * number;
+}
 
-numberSquared();
+console.log(numberSquared(3));
 
 //9.--------------------------------------------------------------------------------------
 //Using the "%" (modulo) operator complete the function,
