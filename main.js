@@ -28,7 +28,8 @@ for (const string of myArray) {
 //5.--------------------------------------------------------------------------------------
 //Using the myArray.splice() method, remove "cherry" from myArray
 // print the result using myArray.foreach()
-
+myArray.splice(myArray.indexOf("cherry"), 1);
+myArray.forEach((string) => console.log(string));
 //6.--------------------------------------------------------------------------------------
 // Using the .shift() and .pop() method, remove the first and last item from myArray.
 //print the result
